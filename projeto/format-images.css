@@ -1,0 +1,49 @@
+#foto1{
+    float: right;
+    height: 300px;
+    width: 400px;
+    margin-left: 20px;
+    border-radius: 30px;
+    border-style: dashed;
+    border-color: chocolate;
+    border-width: 4px;
+}
+
+#foto2{
+    width: 29em;
+}
+
+#foto3{
+    width: 29em;
+}
+
+#foto4{
+    width: 29em; 
+}
+
+#foto5{
+    float: left;
+    margin-right: 20px;
+
+    border-style: dotted;
+    border-width: 4px;
+    border-color: blueviolet;
+
+    height: 250px;
+    width: 350px;
+}
+
+#foto6{
+    float: right;
+    margin-left: 20px;
+
+    width: 350px;
+    height: 250px;
+
+    border-style: solid;
+    border-width: 4px;
+    border-color: deeppink;
+
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}

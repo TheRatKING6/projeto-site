@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="forms.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="responsividade-forms.css">
+    <link rel="stylesheet" href="print.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Cadastrar-se - Patas e Pelos</title>
+</head>
+<body>
+    <div id="menu">
+        <img src="imagens/dog.png" alt="ícone de cachorro" id="iconeDog">
+        <div><a href="index.html">Início</a></div>  <div><a href="services.html" target="_self">Serviços</a></div>  <div><a href="about.html" target="_self">Sobre nós</a></div>
+        <p id="mncd"><span>Cadastrar-se</span></p>
+    </div>
+
+    
+    <div id="forms">
+        <h1 class="animate__animated animate__shakeY">Faça seu cadastro</h1>
+        <div id="cadastro">
+            <form action="index.html">
+                <label for="nome">Nome Completo:</label><br>
+                <input type="text" size="50" minlength="5" maxlength="50" required placeholder="Digite seu nome completo" name="nnome" id="nome">
+                <br><br>
+
+                <label for="cpf">CPF (digite apenas os números):</label><br>
+                <input required type="text" name="cpf" id="cpf" minlength="11" maxlength="11" size="30" placeholder="Ex: 11122233344">
+                <br><br>
+
+                <label for="nascimento">Idade:</label>
+                <input type="number" name="idade" id="idade" min="18" max="110" required>
+                <br><br>
+
+                <label for="nascimento">Informe sua data de nascimento:</label><br>
+                <input type="date" required id="nascimento" name="nascimento">
+                <br><br>
+
+                <label for="tel">Telefone:</label><br>
+                <input type="tel" name="tel" id="tel" required placeholder="Digite seu telefone" size="30">
+                <br><br>
+
+                <fieldset>
+                    <legend>Endereço:</legend>
+                    <label for="Estado">Estado:</label>
+                    <input id="estado" type="text" value="SP" readonly>
+                    <br><br>
+
+                    <label for="Cidade">Cidade</label><br>
+                    <input type="text" required placeholder="Informe sua cidade" minlength="2" size="40" id="cidade">
+                    <br><br>
+
+                    <label for="bairro">Bairro:</label><br>
+                    <input type="text" required placeholder="Bairro..." size="40" id="bairro">
+                    <br><br>
+
+                    <label for="rua">Rua e número:</label><br>
+                    <input type="text" placeholder="Ex: 'Rua fulano de tal, 101'" size="40" required id="rua">
+                </fieldset>
+                <br><br>
+                
+                <label for="senha">Senha:</label><br>
+                <input type="password" required minlength="8" placeholder="Crie uma senha para sua conta" size="40" id="senha">
+                <br><br>
+
+                <label for="email">Email (opcional):</label><br>
+                <input type="email" name="email" id="email" placeholder="Digite seu email" size="40">
+                <br><br>
+
+                <label for="sexo">Sexo (opcional):</label><br>
+                <span>M</span> <input type="radio" size="25" name="sexo" id="sexo" value="M">
+                <span>F</span> <input type="radio" size="25" name="sexo" id="sexo" value="F">
+                <br><br>
+
+                <input type="submit" value="Cadastrar" name="submit" id="submit">
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

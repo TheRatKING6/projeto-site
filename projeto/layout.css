@@ -1,0 +1,200 @@
+#menu{
+    background-color: black;
+    color: white;
+    padding: 3px;
+    height: 7%;
+    font-size: 20pt;
+
+    font-family: Trebuchet MS, sans-serif;
+    margin-top: 0;
+    position: relative;
+    width: 100%;
+    display: flex;
+
+    z-index: 1;
+}
+
+#menu a:link{
+    color: white;
+    text-decoration: none;
+}
+
+#menu a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+#menu a:hover{
+    color: greenyellow;
+    text-decoration: none;
+}
+
+#menu a:active{
+    color: greenyellow;
+    text-decoration: underline;
+}
+
+#menu span{
+    text-decoration: underline;
+}
+
+body{
+    background-image: url(imagens/bgimage1.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    margin: 0;
+    
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    height: 100vh;
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 70px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.tabelaServ{
+    text-align: center;
+}
+
+#mncd{
+    background-color: black;
+    padding: 4px;
+    border-radius: 20px;
+    position: fixed;
+    right: 20px;
+    margin-top: 0;
+    
+}
+
+#mncd:hover{
+    transform: scale(1.1,1.1);
+}
+
+.conteudo{
+    background-color: rgb(187, 225, 255);
+    position: relative;
+    
+    width: 60%;
+    padding: 30px;
+    font-size: 14pt;
+    
+    padding-bottom: 50px;
+}
+
+#contato{
+    position: relative;
+    bottom: 0;
+    top: 0px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-bottom: 20px;
+
+    width: 100%;
+}
+
+#infoContato{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+a:link{
+    text-decoration: none;
+    color:crimson ;
+}
+a:visited{
+    text-decoration: none;
+    color: crimson;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: orangered;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+.lista1{
+    border-radius: 20px;
+    border-style: ridge;
+    border-color: red;
+    width: 90%;
+    padding-right: 20px;
+    background-color: lightgray;
+}
+
+dt{
+    margin-top: 10px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+dd{
+    font-style: italic;
+}
+
+.servico{
+    margin-top: 90px;
+}
+
+h3{
+    font-size: 15pt;
+}
+
+#menu div{
+    position: relative;
+    top: 2px;
+    padding: 0;
+    margin: 0;
+    
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+#menu div:hover{
+    transform: scale(1.15, 1.15);
+}
+
+#iconeDog{
+    position: relative;
+    left: 10px;
+    margin-right: 20px;
+}
+
+#iconeDog:hover{
+    animation: rodar;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rodar {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+#intro{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 16pt;
+}

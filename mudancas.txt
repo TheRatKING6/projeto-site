@@ -1,0 +1,7 @@
+Flexbox: 
+- Vale a pena destacar que o projeto originalmente ja tinha a quantidade necessária de propriedades flexbox por página. Todas as páginas tem 4 ou mais propriedades flexbox sendo aplicadas nelas em diferentes pontos de cada uma. As propriedades estão distribuídas nos arquivos CSS. (Principlamente: layout.css, forms.css, responsividade.css(algumas propriedades flexbox são adicionadas, outras apenas modificadas));
+
+Responsividade:
+- Meta tag viewport já estava em todos os arquivos do projeto original;
+- Todas as alterações do media print estão no 'print.css', e são aplicadas a todas as páginas;
+- Media Query é usado em todas as páginas, 5 breakpoints que alteram várias propriedades CSS;

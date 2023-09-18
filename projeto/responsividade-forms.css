@@ -1,0 +1,214 @@
+/*Grande*/
+@media (min-width:1024px) and (max-width:1280px){
+    body{
+        background-size: 130%;
+        background-position: center;
+    }
+}
+
+/*médio*/
+@media (min-width: 768px) and (max-width: 1024px){
+    #menu{
+        font-size: 1.5em;
+        flex-direction: row;
+    }
+
+    body{
+        background-size: 160%;
+        background-position: center;
+    }
+
+}
+
+/*pequeno*/
+@media(min-width: 481px) and (max-width: 767px){
+    #menu{
+        font-size: 1.3em;
+    }
+
+    body{
+        background-image: none;
+    }
+
+    #forms{
+        width: 100%;
+        
+    }
+
+    #cadastro{
+        width: 95%;
+        padding: 5px;
+        padding-top: 8%;
+    }
+
+    label{
+        font-size: 1.2em;
+    }
+
+    #nome{
+        width: 92%;
+    }
+
+    #cpf{
+        width: 92%;
+    }
+
+    #idade{
+        width: 50%;
+    }
+
+    #tel{
+        width: 92%;
+    }
+
+    #estado{
+        width: 10%;
+    }
+
+    #cidade{
+        width: 92%;
+    }
+
+    #bairro{
+        width: 92%;
+    }
+
+    #rua{
+        width: 92%;
+    }
+
+    #senha{
+        width: 92%;
+    }
+
+    #email{
+        width: 92%;
+    }
+
+    #submit{
+        margin-bottom: 20px;
+    }
+}
+
+/* mobile */
+@media (min-width: 320px) and (max-width: 480px){
+    #menu{
+        font-size: 1.4em;
+        flex-direction: column;
+        padding-bottom: 100px;
+    }
+
+    #menu div{
+        margin-bottom: 10px;
+    }
+
+    h1{
+        font-size: 50px;
+        
+    }
+    h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    body{
+        background-image: none;
+    }
+
+    #iconeDog{
+        display: none;
+    }
+
+    #forms{
+        width: 100%;
+        
+    }
+
+    #cadastro{
+        width: 95%;
+        padding: 5px;
+        padding-top: 8%;
+    }
+
+    label{
+        font-size: 1em;
+    }
+
+    #nome{
+        width: 92%;
+    }
+
+    #cpf{
+        width: 92%;
+    }
+
+    #idade{
+        width: 50%;
+    }
+
+    #tel{
+        width: 92%;
+    }
+
+    #estado{
+        width: 10%;
+    }
+
+    #cidade{
+        width: 92%;
+    }
+
+    #bairro{
+        width: 92%;
+    }
+
+    #rua{
+        width: 92%;
+    }
+
+    #senha{
+        width: 92%;
+    }
+
+    #email{
+        width: 92%;
+    }
+
+    #submit{
+        margin-bottom: 20px;
+    }
+}
+
+/*minusculo*/
+@media (max-width:319px){
+    picture{
+        display: none;
+    }
+    
+    body{
+        background-image: none;
+    }
+
+    #menu{
+        font-size: 1.2em;
+        flex-direction: column;
+        padding-bottom: 100px;
+    }
+
+    #menu div{
+        margin-bottom: 10px;
+    }
+
+    h1{
+        font-size: 40px;
+        
+    }
+    h2{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #iconeDog{
+        display: none;
+    }
+}

@@ -1,0 +1,11 @@
+#inicio{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+#listaAbt{
+    margin-top: 0;
+    margin-right: 20px;
+}

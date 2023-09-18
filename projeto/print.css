@@ -1,0 +1,17 @@
+@media print{
+    #menu{
+        display: none;
+    }
+
+    #contato{
+        display: none;
+    }
+
+    body{
+        background-image: none;
+    }
+
+    .conteudo{
+        width: 100%;
+    }
+}
