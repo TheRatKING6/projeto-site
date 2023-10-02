@@ -31,7 +31,7 @@ Parte CSS:
    - background – pode ser da div ou da página
    - formatação do formulário
 
-### Parte Responsividade (novo):
+### Parte Responsividade:
    - **Flexbox:**
       - Aplicar ao menos 4 propriedades de Flexbox em ao menos 1 página do site
    - **Responsividade**
@@ -39,6 +39,17 @@ Parte CSS:
       - Media print alterando ao menos 2 propriedades CSS em ao menos 1 página do site
       - Media query (3 breakpoints) alterando ao menos 3 propriedades CSS, para ao menos  em ao menos 1 página do site
    - **Disponibilizar um txt indicando em quais arquivos as alterações foram feitas ou comentário no início do arquivo**
+
+### Parte Bootstrap (novo):
+   - Navbar
+   - CLasses para texto
+   - Ícones
+   - Grid System
+   - Cards
+   - Carrossel
+   - Accordion
+   - Forms com formatação e validação
+   - 3 Componentes não usados em aula (que façam sentido na página)
 
 
 ## Info
